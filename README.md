@@ -64,7 +64,7 @@ El backend sirve el frontend compilado en `http://localhost:4000`. En producció
 cd backend && npm test      # cobro (unitarias) + flujo completo de la API contra PostgreSQL
 ```
 
-## Funcionalidades (todas las del original)
+## Funcionalidades
 
 - **Login** con roles `admin` y `cajero` (Parámetros, Productos y Usuarios solo para admin).
 - **Estacionamiento**: contadores Ocupados / Libres, ingreso por placa (mayúsculas, máx. 8), validación de placa duplicada y de "Estacionamiento lleno".
