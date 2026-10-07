@@ -75,7 +75,7 @@ cd backend && npm test      # cobro (unitarias) + flujo completo de la API contr
 - **Parámetros**: razón social, RUC (11), dirección, celular (9), comentario (300), IGV, capacidad, asignar espacios.
 - **Productos**: registrar / modificar / eliminar, con tarifa, horas, sobreestadia y tolerancia.
 
-## Mejoras respecto al original
+## Mejoras 
 
 - **Seguridad**: consultas parametrizadas (el original concatenaba SQL y era vulnerable a inyección), contraseñas con **bcrypt** (antes en texto plano), sesión con JWT, permisos por rol, límite de intentos de login.
 - **Integridad**: una placa o un espacio no pueden estar "dentro" dos veces (restricción en la BD, también con ingresos simultáneos); fechas reales (`timestamptz`) en vez de texto; productos con borrado lógico para no perder el historial.
