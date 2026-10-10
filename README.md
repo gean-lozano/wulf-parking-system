@@ -75,6 +75,12 @@ cd backend && npm test      # cobro (unitarias) + flujo completo de la API contr
 - **Parámetros**: razón social, RUC (11), dirección, celular (9), comentario (300), IGV, capacidad, asignar espacios.
 - **Productos**: registrar / modificar / eliminar, con tarifa, horas, sobreestadia y tolerancia.
 
+  ![mainboard](docs/a.png)
+  ![parametros (asignar casilleros, capacidad, etc](docs/c.png)
+  ![productos y tarifas](docs/d.png)
+  ![ingreso por numero de espacio](docs/e.png)
+  ![salida de vehiculo](docs/b.png)
+
 ## Mejoras 
 
 - **Seguridad**: consultas parametrizadas (el original concatenaba SQL y era vulnerable a inyección), contraseñas con **bcrypt** (antes en texto plano), sesión con JWT, permisos por rol, límite de intentos de login.
